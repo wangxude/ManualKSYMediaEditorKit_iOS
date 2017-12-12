@@ -1,0 +1,1039 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78018BBC1FDF7B7D00609EBC /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 78018BBA1FDF7B7D00609EBC /* MBProgressHUD.m */; };
+		7860DB911EA064A80083F06E /* DialogueListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7860DB901EA064A80083F06E /* DialogueListViewController.m */; };
+		7860DB931EA0656F0083F06E /* messages.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7860DB921EA0656F0083F06E /* messages.plist */; };
+		7875C4C31E9B493B001FFE9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7875C4C21E9B493B001FFE9A /* main.m */; };
+		7875C4C61E9B493B001FFE9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7875C4C51E9B493B001FFE9A /* AppDelegate.m */; };
+		7875C4C91E9B493B001FFE9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7875C4C81E9B493B001FFE9A /* ViewController.m */; };
+		7875C4CC1E9B493B001FFE9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7875C4CA1E9B493B001FFE9A /* Main.storyboard */; };
+		7875C4CE1E9B493B001FFE9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7875C4CD1E9B493B001FFE9A /* Assets.xcassets */; };
+		7875C4D11E9B493B001FFE9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7875C4CF1E9B493B001FFE9A /* LaunchScreen.storyboard */; };
+		7875C4DC1E9B493C001FFE9A /* __ios________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7875C4DB1E9B493C001FFE9A /* __ios________Tests.m */; };
+		7875C4E71E9B493C001FFE9A /* __ios________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7875C4E61E9B493C001FFE9A /* __ios________UITests.m */; };
+		7875C4F61E9B4B95001FFE9A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7875C4F51E9B4B95001FFE9A /* SystemConfiguration.framework */; };
+		7875C4F81E9B4BA1001FFE9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7875C4F71E9B4BA1001FFE9A /* Foundation.framework */; };
+		7875C4FA1E9B4BAE001FFE9A /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7875C4F91E9B4BAE001FFE9A /* GLKit.framework */; };
+		7875C4FC1E9B4BB8001FFE9A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7875C4FB1E9B4BB8001FFE9A /* AVFoundation.framework */; };
+		7875C4FE1E9B4BC0001FFE9A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7875C4FD1E9B4BC0001FFE9A /* OpenGLES.framework */; };
+		7875C5001E9B4BD2001FFE9A /* libz.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7875C4FF1E9B4BD2001FFE9A /* libz.1.tbd */; };
+		7875C5021E9B4BD9001FFE9A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7875C5011E9B4BD9001FFE9A /* Security.framework */; };
+		7875C5041E9B4BE0001FFE9A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7875C5031E9B4BE0001FFE9A /* CFNetwork.framework */; };
+		7875C5061E9B4BE7001FFE9A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7875C5051E9B4BE7001FFE9A /* CoreLocation.framework */; };
+		7875C5281E9B4EBA001FFE9A /* CADebugMacros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7875C5151E9B4EBA001FFE9A /* CADebugMacros.cpp */; };
+		7875C5291E9B4EBA001FFE9A /* CAStreamBasicDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7875C5181E9B4EBA001FFE9A /* CAStreamBasicDescription.cpp */; };
+		7875C52A1E9B4EBA001FFE9A /* CAXException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7875C51A1E9B4EBA001FFE9A /* CAXException.cpp */; };
+		7875C52B1E9B4EBA001FFE9A /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7875C51E1E9B4EBA001FFE9A /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7875C52C1E9B4EBA001FFE9A /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 7875C5211E9B4EBA001FFE9A /* OpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7875C52D1E9B4EBA001FFE9A /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7875C5241E9B4EBA001FFE9A /* TTTAttributedLabel.m */; };
+		7875C52F1E9B4F43001FFE9A /* libTuringSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7875C52E1E9B4F43001FFE9A /* libTuringSDK.a */; };
+		78DB3B1F1E9E55C80066B892 /* UUInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DB3B1E1E9E55C80066B892 /* UUInputAccessoryView.m */; };
+		78DB3B2C1E9E5B0B0066B892 /* TLMessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DB3B2B1E9E5B0B0066B892 /* TLMessageTableViewCell.m */; };
+		78DB3B2F1E9E5B240066B892 /* MessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DB3B2E1E9E5B240066B892 /* MessageModel.m */; };
+		78DB3B321E9E5B350066B892 /* CellFrameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DB3B311E9E5B350066B892 /* CellFrameModel.m */; };
+		78DB3B391E9E5BB00066B892 /* UIImage+ResizeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DB3B361E9E5BB00066B892 /* UIImage+ResizeImage.m */; };
+		78DB3B3A1E9E5BB00066B892 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DB3B381E9E5BB00066B892 /* NSString+Extension.m */; };
+		FE9D541AA7A7EA58F05E6740 /* libPods-基于ios平台的图灵机器人.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37185348DB6A92C3E60B7AD3 /* libPods-基于ios平台的图灵机器人.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7875C4D81E9B493C001FFE9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7875C4B61E9B493B001FFE9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7875C4BD1E9B493B001FFE9A;
+			remoteInfo = "基于ios平台的图灵机器人";
+		};
+		7875C4E31E9B493C001FFE9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7875C4B61E9B493B001FFE9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7875C4BD1E9B493B001FFE9A;
+			remoteInfo = "基于ios平台的图灵机器人";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37185348DB6A92C3E60B7AD3 /* libPods-基于ios平台的图灵机器人.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-基于ios平台的图灵机器人.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78018BBA1FDF7B7D00609EBC /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		78018BBB1FDF7B7D00609EBC /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		783E16B01E9BA0D10026860D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7860DB8F1EA064A80083F06E /* DialogueListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialogueListViewController.h; sourceTree = "<group>"; };
+		7860DB901EA064A80083F06E /* DialogueListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialogueListViewController.m; sourceTree = "<group>"; };
+		7860DB921EA0656F0083F06E /* messages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = messages.plist; sourceTree = "<group>"; };
+		7875C4BE1E9B493B001FFE9A /* 基于ios平台的图灵机器人.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "基于ios平台的图灵机器人.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7875C4C21E9B493B001FFE9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7875C4C41E9B493B001FFE9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7875C4C51E9B493B001FFE9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7875C4C71E9B493B001FFE9A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7875C4C81E9B493B001FFE9A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7875C4CB1E9B493B001FFE9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7875C4CD1E9B493B001FFE9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7875C4D01E9B493B001FFE9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7875C4D21E9B493B001FFE9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7875C4D71E9B493C001FFE9A /* 基于ios平台的图灵机器人Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "基于ios平台的图灵机器人Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7875C4DB1E9B493C001FFE9A /* __ios________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__ios________Tests.m"; sourceTree = "<group>"; };
+		7875C4DD1E9B493C001FFE9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7875C4E21E9B493C001FFE9A /* 基于ios平台的图灵机器人UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "基于ios平台的图灵机器人UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7875C4E61E9B493C001FFE9A /* __ios________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__ios________UITests.m"; sourceTree = "<group>"; };
+		7875C4E81E9B493C001FFE9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7875C4F51E9B4B95001FFE9A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7875C4F71E9B4BA1001FFE9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7875C4F91E9B4BAE001FFE9A /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		7875C4FB1E9B4BB8001FFE9A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7875C4FD1E9B4BC0001FFE9A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		7875C4FF1E9B4BD2001FFE9A /* libz.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.tbd; path = usr/lib/libz.1.tbd; sourceTree = SDKROOT; };
+		7875C5011E9B4BD9001FFE9A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7875C5031E9B4BE0001FFE9A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7875C5051E9B4BE7001FFE9A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7875C5091E9B4EBA001FFE9A /* BDVoiceRecognitionClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDVoiceRecognitionClient.h; sourceTree = "<group>"; };
+		7875C50A1E9B4EBA001FFE9A /* TRRSpeechSythesizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRRSpeechSythesizer.h; sourceTree = "<group>"; };
+		7875C50B1E9B4EBA001FFE9A /* TRRTuringAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRRTuringAPI.h; sourceTree = "<group>"; };
+		7875C50C1E9B4EBA001FFE9A /* TRRTuringAPIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRRTuringAPIConfig.h; sourceTree = "<group>"; };
+		7875C50D1E9B4EBA001FFE9A /* TRRTuringRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRRTuringRequestManager.h; sourceTree = "<group>"; };
+		7875C50E1E9B4EBA001FFE9A /* TRRVoiceRecognitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRRVoiceRecognitionManager.h; sourceTree = "<group>"; };
+		7875C5101E9B4EBA001FFE9A /* libTuringSDK-iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libTuringSDK-iphoneos.a"; sourceTree = "<group>"; };
+		7875C5111E9B4EBA001FFE9A /* libTuringSDK-simulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libTuringSDK-simulator.a"; sourceTree = "<group>"; };
+		7875C5121E9B4EBA001FFE9A /* libTuringSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTuringSDK.a; sourceTree = "<group>"; };
+		7875C5151E9B4EBA001FFE9A /* CADebugMacros.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CADebugMacros.cpp; sourceTree = "<group>"; };
+		7875C5161E9B4EBA001FFE9A /* CADebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADebugMacros.h; sourceTree = "<group>"; };
+		7875C5171E9B4EBA001FFE9A /* CAMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMath.h; sourceTree = "<group>"; };
+		7875C5181E9B4EBA001FFE9A /* CAStreamBasicDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAStreamBasicDescription.cpp; sourceTree = "<group>"; };
+		7875C5191E9B4EBA001FFE9A /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAStreamBasicDescription.h; sourceTree = "<group>"; };
+		7875C51A1E9B4EBA001FFE9A /* CAXException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAXException.cpp; sourceTree = "<group>"; };
+		7875C51B1E9B4EBA001FFE9A /* CAXException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAXException.h; sourceTree = "<group>"; };
+		7875C51D1E9B4EBA001FFE9A /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		7875C51E1E9B4EBA001FFE9A /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		7875C5201E9B4EBA001FFE9A /* OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenUDID.h; sourceTree = "<group>"; };
+		7875C5211E9B4EBA001FFE9A /* OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenUDID.m; sourceTree = "<group>"; };
+		7875C5231E9B4EBA001FFE9A /* TTTAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAttributedLabel.h; sourceTree = "<group>"; };
+		7875C5241E9B4EBA001FFE9A /* TTTAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributedLabel.m; sourceTree = "<group>"; };
+		7875C52E1E9B4F43001FFE9A /* libTuringSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTuringSDK.a; sourceTree = "<group>"; };
+		78DB3B1D1E9E55C80066B892 /* UUInputAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUInputAccessoryView.h; sourceTree = "<group>"; };
+		78DB3B1E1E9E55C80066B892 /* UUInputAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUInputAccessoryView.m; sourceTree = "<group>"; };
+		78DB3B2A1E9E5B0B0066B892 /* TLMessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMessageTableViewCell.h; sourceTree = "<group>"; };
+		78DB3B2B1E9E5B0B0066B892 /* TLMessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMessageTableViewCell.m; sourceTree = "<group>"; };
+		78DB3B2D1E9E5B240066B892 /* MessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageModel.h; sourceTree = "<group>"; };
+		78DB3B2E1E9E5B240066B892 /* MessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageModel.m; sourceTree = "<group>"; };
+		78DB3B301E9E5B350066B892 /* CellFrameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellFrameModel.h; sourceTree = "<group>"; };
+		78DB3B311E9E5B350066B892 /* CellFrameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellFrameModel.m; sourceTree = "<group>"; };
+		78DB3B351E9E5BB00066B892 /* UIImage+ResizeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ResizeImage.h"; sourceTree = "<group>"; };
+		78DB3B361E9E5BB00066B892 /* UIImage+ResizeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ResizeImage.m"; sourceTree = "<group>"; };
+		78DB3B371E9E5BB00066B892 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		78DB3B381E9E5BB00066B892 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		EAC86B372C38D0259F86AD3E /* Pods-基于ios平台的图灵机器人.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-基于ios平台的图灵机器人.release.xcconfig"; path = "Pods/Target Support Files/Pods-基于ios平台的图灵机器人/Pods-基于ios平台的图灵机器人.release.xcconfig"; sourceTree = "<group>"; };
+		FC13DD109395290A4BD5D2B3 /* Pods-基于ios平台的图灵机器人.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-基于ios平台的图灵机器人.debug.xcconfig"; path = "Pods/Target Support Files/Pods-基于ios平台的图灵机器人/Pods-基于ios平台的图灵机器人.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7875C4BB1E9B493B001FFE9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7875C5061E9B4BE7001FFE9A /* CoreLocation.framework in Frameworks */,
+				7875C5041E9B4BE0001FFE9A /* CFNetwork.framework in Frameworks */,
+				7875C5021E9B4BD9001FFE9A /* Security.framework in Frameworks */,
+				7875C5001E9B4BD2001FFE9A /* libz.1.tbd in Frameworks */,
+				7875C4FE1E9B4BC0001FFE9A /* OpenGLES.framework in Frameworks */,
+				7875C4FC1E9B4BB8001FFE9A /* AVFoundation.framework in Frameworks */,
+				7875C4FA1E9B4BAE001FFE9A /* GLKit.framework in Frameworks */,
+				7875C4F81E9B4BA1001FFE9A /* Foundation.framework in Frameworks */,
+				7875C4F61E9B4B95001FFE9A /* SystemConfiguration.framework in Frameworks */,
+				7875C52F1E9B4F43001FFE9A /* libTuringSDK.a in Frameworks */,
+				FE9D541AA7A7EA58F05E6740 /* libPods-基于ios平台的图灵机器人.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7875C4D41E9B493C001FFE9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7875C4DF1E9B493C001FFE9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78018BB91FDF7B6800609EBC /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				78018BBB1FDF7B7D00609EBC /* MBProgressHUD.h */,
+				78018BBA1FDF7B7D00609EBC /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		7875C4B51E9B493B001FFE9A = {
+			isa = PBXGroup;
+			children = (
+				7875C4C01E9B493B001FFE9A /* 基于ios平台的图灵机器人 */,
+				7875C4DA1E9B493C001FFE9A /* 基于ios平台的图灵机器人Tests */,
+				7875C4E51E9B493C001FFE9A /* 基于ios平台的图灵机器人UITests */,
+				7875C4BF1E9B493B001FFE9A /* Products */,
+				7875C4F41E9B4B95001FFE9A /* Frameworks */,
+				9B7B4EC09246BD2E750C1383 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		7875C4BF1E9B493B001FFE9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7875C4BE1E9B493B001FFE9A /* 基于ios平台的图灵机器人.app */,
+				7875C4D71E9B493C001FFE9A /* 基于ios平台的图灵机器人Tests.xctest */,
+				7875C4E21E9B493C001FFE9A /* 基于ios平台的图灵机器人UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7875C4C01E9B493B001FFE9A /* 基于ios平台的图灵机器人 */ = {
+			isa = PBXGroup;
+			children = (
+				7875C4C41E9B493B001FFE9A /* AppDelegate.h */,
+				7875C4C51E9B493B001FFE9A /* AppDelegate.m */,
+				7875C4C71E9B493B001FFE9A /* ViewController.h */,
+				7875C4C81E9B493B001FFE9A /* ViewController.m */,
+				78DB3B331E9E5B920066B892 /* Libs */,
+				78DB3B201E9E5A040066B892 /* 聊天模块 */,
+				7875C52E1E9B4F43001FFE9A /* libTuringSDK.a */,
+				78DB3B1C1E9E55C00066B892 /* UUInputAccessoryView */,
+				7875C5071E9B4EBA001FFE9A /* SDK Package */,
+				7875C4CA1E9B493B001FFE9A /* Main.storyboard */,
+				7875C4CD1E9B493B001FFE9A /* Assets.xcassets */,
+				7875C4CF1E9B493B001FFE9A /* LaunchScreen.storyboard */,
+				7875C4D21E9B493B001FFE9A /* Info.plist */,
+				7875C4C11E9B493B001FFE9A /* Supporting Files */,
+			);
+			path = "基于ios平台的图灵机器人";
+			sourceTree = "<group>";
+		};
+		7875C4C11E9B493B001FFE9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7860DB921EA0656F0083F06E /* messages.plist */,
+				7875C4C21E9B493B001FFE9A /* main.m */,
+				783E16B01E9BA0D10026860D /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7875C4DA1E9B493C001FFE9A /* 基于ios平台的图灵机器人Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7875C4DB1E9B493C001FFE9A /* __ios________Tests.m */,
+				7875C4DD1E9B493C001FFE9A /* Info.plist */,
+			);
+			path = "基于ios平台的图灵机器人Tests";
+			sourceTree = "<group>";
+		};
+		7875C4E51E9B493C001FFE9A /* 基于ios平台的图灵机器人UITests */ = {
+			isa = PBXGroup;
+			children = (
+				7875C4E61E9B493C001FFE9A /* __ios________UITests.m */,
+				7875C4E81E9B493C001FFE9A /* Info.plist */,
+			);
+			path = "基于ios平台的图灵机器人UITests";
+			sourceTree = "<group>";
+		};
+		7875C4F41E9B4B95001FFE9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7875C5051E9B4BE7001FFE9A /* CoreLocation.framework */,
+				7875C5031E9B4BE0001FFE9A /* CFNetwork.framework */,
+				7875C5011E9B4BD9001FFE9A /* Security.framework */,
+				7875C4FF1E9B4BD2001FFE9A /* libz.1.tbd */,
+				7875C4FD1E9B4BC0001FFE9A /* OpenGLES.framework */,
+				7875C4FB1E9B4BB8001FFE9A /* AVFoundation.framework */,
+				7875C4F91E9B4BAE001FFE9A /* GLKit.framework */,
+				7875C4F71E9B4BA1001FFE9A /* Foundation.framework */,
+				7875C4F51E9B4B95001FFE9A /* SystemConfiguration.framework */,
+				37185348DB6A92C3E60B7AD3 /* libPods-基于ios平台的图灵机器人.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7875C5071E9B4EBA001FFE9A /* SDK Package */ = {
+			isa = PBXGroup;
+			children = (
+				7875C5081E9B4EBA001FFE9A /* Header */,
+				7875C50F1E9B4EBA001FFE9A /* Libs */,
+				7875C5131E9B4EBA001FFE9A /* ThirdPart */,
+			);
+			path = "SDK Package";
+			sourceTree = "<group>";
+		};
+		7875C5081E9B4EBA001FFE9A /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				7875C5091E9B4EBA001FFE9A /* BDVoiceRecognitionClient.h */,
+				7875C50A1E9B4EBA001FFE9A /* TRRSpeechSythesizer.h */,
+				7875C50B1E9B4EBA001FFE9A /* TRRTuringAPI.h */,
+				7875C50C1E9B4EBA001FFE9A /* TRRTuringAPIConfig.h */,
+				7875C50D1E9B4EBA001FFE9A /* TRRTuringRequestManager.h */,
+				7875C50E1E9B4EBA001FFE9A /* TRRVoiceRecognitionManager.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		7875C50F1E9B4EBA001FFE9A /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				7875C5101E9B4EBA001FFE9A /* libTuringSDK-iphoneos.a */,
+				7875C5111E9B4EBA001FFE9A /* libTuringSDK-simulator.a */,
+				7875C5121E9B4EBA001FFE9A /* libTuringSDK.a */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		7875C5131E9B4EBA001FFE9A /* ThirdPart */ = {
+			isa = PBXGroup;
+			children = (
+				7875C5141E9B4EBA001FFE9A /* CoreAudioUtility */,
+				7875C51C1E9B4EBA001FFE9A /* JSONKit-master */,
+				7875C51F1E9B4EBA001FFE9A /* OpenUDID */,
+				7875C5221E9B4EBA001FFE9A /* TTTAttributedLabel */,
+			);
+			path = ThirdPart;
+			sourceTree = "<group>";
+		};
+		7875C5141E9B4EBA001FFE9A /* CoreAudioUtility */ = {
+			isa = PBXGroup;
+			children = (
+				7875C5151E9B4EBA001FFE9A /* CADebugMacros.cpp */,
+				7875C5161E9B4EBA001FFE9A /* CADebugMacros.h */,
+				7875C5171E9B4EBA001FFE9A /* CAMath.h */,
+				7875C5181E9B4EBA001FFE9A /* CAStreamBasicDescription.cpp */,
+				7875C5191E9B4EBA001FFE9A /* CAStreamBasicDescription.h */,
+				7875C51A1E9B4EBA001FFE9A /* CAXException.cpp */,
+				7875C51B1E9B4EBA001FFE9A /* CAXException.h */,
+			);
+			path = CoreAudioUtility;
+			sourceTree = "<group>";
+		};
+		7875C51C1E9B4EBA001FFE9A /* JSONKit-master */ = {
+			isa = PBXGroup;
+			children = (
+				7875C51D1E9B4EBA001FFE9A /* JSONKit.h */,
+				7875C51E1E9B4EBA001FFE9A /* JSONKit.m */,
+			);
+			path = "JSONKit-master";
+			sourceTree = "<group>";
+		};
+		7875C51F1E9B4EBA001FFE9A /* OpenUDID */ = {
+			isa = PBXGroup;
+			children = (
+				7875C5201E9B4EBA001FFE9A /* OpenUDID.h */,
+				7875C5211E9B4EBA001FFE9A /* OpenUDID.m */,
+			);
+			path = OpenUDID;
+			sourceTree = "<group>";
+		};
+		7875C5221E9B4EBA001FFE9A /* TTTAttributedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				7875C5231E9B4EBA001FFE9A /* TTTAttributedLabel.h */,
+				7875C5241E9B4EBA001FFE9A /* TTTAttributedLabel.m */,
+			);
+			path = TTTAttributedLabel;
+			sourceTree = "<group>";
+		};
+		78DB3B1C1E9E55C00066B892 /* UUInputAccessoryView */ = {
+			isa = PBXGroup;
+			children = (
+				78DB3B1D1E9E55C80066B892 /* UUInputAccessoryView.h */,
+				78DB3B1E1E9E55C80066B892 /* UUInputAccessoryView.m */,
+			);
+			path = UUInputAccessoryView;
+			sourceTree = "<group>";
+		};
+		78DB3B201E9E5A040066B892 /* 聊天模块 */ = {
+			isa = PBXGroup;
+			children = (
+				78DB3B231E9E5A230066B892 /* Model */,
+				78DB3B221E9E5A1B0066B892 /* View */,
+				78DB3B211E9E5A110066B892 /* ViewController */,
+			);
+			path = "聊天模块";
+			sourceTree = "<group>";
+		};
+		78DB3B211E9E5A110066B892 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7860DB8F1EA064A80083F06E /* DialogueListViewController.h */,
+				7860DB901EA064A80083F06E /* DialogueListViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		78DB3B221E9E5A1B0066B892 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				78DB3B2A1E9E5B0B0066B892 /* TLMessageTableViewCell.h */,
+				78DB3B2B1E9E5B0B0066B892 /* TLMessageTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		78DB3B231E9E5A230066B892 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				78DB3B2D1E9E5B240066B892 /* MessageModel.h */,
+				78DB3B2E1E9E5B240066B892 /* MessageModel.m */,
+				78DB3B301E9E5B350066B892 /* CellFrameModel.h */,
+				78DB3B311E9E5B350066B892 /* CellFrameModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78DB3B331E9E5B920066B892 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				78018BB91FDF7B6800609EBC /* MBProgressHUD */,
+				78DB3B341E9E5BA60066B892 /* Category */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		78DB3B341E9E5BA60066B892 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				78DB3B351E9E5BB00066B892 /* UIImage+ResizeImage.h */,
+				78DB3B361E9E5BB00066B892 /* UIImage+ResizeImage.m */,
+				78DB3B371E9E5BB00066B892 /* NSString+Extension.h */,
+				78DB3B381E9E5BB00066B892 /* NSString+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		9B7B4EC09246BD2E750C1383 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC13DD109395290A4BD5D2B3 /* Pods-基于ios平台的图灵机器人.debug.xcconfig */,
+				EAC86B372C38D0259F86AD3E /* Pods-基于ios平台的图灵机器人.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7875C4BD1E9B493B001FFE9A /* 基于ios平台的图灵机器人 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7875C4EB1E9B493C001FFE9A /* Build configuration list for PBXNativeTarget "基于ios平台的图灵机器人" */;
+			buildPhases = (
+				CB349BDEDC7AFE9AFF57873E /* [CP] Check Pods Manifest.lock */,
+				7875C4BA1E9B493B001FFE9A /* Sources */,
+				7875C4BB1E9B493B001FFE9A /* Frameworks */,
+				7875C4BC1E9B493B001FFE9A /* Resources */,
+				531EA42049820626741B9B2C /* [CP] Embed Pods Frameworks */,
+				6749243AF8A4B90A52271C84 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "基于ios平台的图灵机器人";
+			productName = "基于ios平台的图灵机器人";
+			productReference = 7875C4BE1E9B493B001FFE9A /* 基于ios平台的图灵机器人.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7875C4D61E9B493C001FFE9A /* 基于ios平台的图灵机器人Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7875C4EE1E9B493C001FFE9A /* Build configuration list for PBXNativeTarget "基于ios平台的图灵机器人Tests" */;
+			buildPhases = (
+				7875C4D31E9B493C001FFE9A /* Sources */,
+				7875C4D41E9B493C001FFE9A /* Frameworks */,
+				7875C4D51E9B493C001FFE9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7875C4D91E9B493C001FFE9A /* PBXTargetDependency */,
+			);
+			name = "基于ios平台的图灵机器人Tests";
+			productName = "基于ios平台的图灵机器人Tests";
+			productReference = 7875C4D71E9B493C001FFE9A /* 基于ios平台的图灵机器人Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7875C4E11E9B493C001FFE9A /* 基于ios平台的图灵机器人UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7875C4F11E9B493C001FFE9A /* Build configuration list for PBXNativeTarget "基于ios平台的图灵机器人UITests" */;
+			buildPhases = (
+				7875C4DE1E9B493C001FFE9A /* Sources */,
+				7875C4DF1E9B493C001FFE9A /* Frameworks */,
+				7875C4E01E9B493C001FFE9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7875C4E41E9B493C001FFE9A /* PBXTargetDependency */,
+			);
+			name = "基于ios平台的图灵机器人UITests";
+			productName = "基于ios平台的图灵机器人UITests";
+			productReference = 7875C4E21E9B493C001FFE9A /* 基于ios平台的图灵机器人UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7875C4B61E9B493B001FFE9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "kys-5";
+				TargetAttributes = {
+					7875C4BD1E9B493B001FFE9A = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 8Z3BCBA7P2;
+						ProvisioningStyle = Automatic;
+					};
+					7875C4D61E9B493C001FFE9A = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 8Z3BCBA7P2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7875C4BD1E9B493B001FFE9A;
+					};
+					7875C4E11E9B493C001FFE9A = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 8Z3BCBA7P2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7875C4BD1E9B493B001FFE9A;
+					};
+				};
+			};
+			buildConfigurationList = 7875C4B91E9B493B001FFE9A /* Build configuration list for PBXProject "基于ios平台的图灵机器人" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7875C4B51E9B493B001FFE9A;
+			productRefGroup = 7875C4BF1E9B493B001FFE9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7875C4BD1E9B493B001FFE9A /* 基于ios平台的图灵机器人 */,
+				7875C4D61E9B493C001FFE9A /* 基于ios平台的图灵机器人Tests */,
+				7875C4E11E9B493C001FFE9A /* 基于ios平台的图灵机器人UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7875C4BC1E9B493B001FFE9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7860DB931EA0656F0083F06E /* messages.plist in Resources */,
+				7875C4D11E9B493B001FFE9A /* LaunchScreen.storyboard in Resources */,
+				7875C4CE1E9B493B001FFE9A /* Assets.xcassets in Resources */,
+				7875C4CC1E9B493B001FFE9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7875C4D51E9B493C001FFE9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7875C4E01E9B493C001FFE9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		531EA42049820626741B9B2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-基于ios平台的图灵机器人/Pods-基于ios平台的图灵机器人-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6749243AF8A4B90A52271C84 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-基于ios平台的图灵机器人/Pods-基于ios平台的图灵机器人-resources.sh",
+				"${PODS_ROOT}/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-基于ios平台的图灵机器人/Pods-基于ios平台的图灵机器人-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB349BDEDC7AFE9AFF57873E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-基于ios平台的图灵机器人-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7875C4BA1E9B493B001FFE9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7875C52A1E9B4EBA001FFE9A /* CAXException.cpp in Sources */,
+				78DB3B391E9E5BB00066B892 /* UIImage+ResizeImage.m in Sources */,
+				7875C4C91E9B493B001FFE9A /* ViewController.m in Sources */,
+				78DB3B1F1E9E55C80066B892 /* UUInputAccessoryView.m in Sources */,
+				7875C4C61E9B493B001FFE9A /* AppDelegate.m in Sources */,
+				7875C5281E9B4EBA001FFE9A /* CADebugMacros.cpp in Sources */,
+				7875C4C31E9B493B001FFE9A /* main.m in Sources */,
+				78018BBC1FDF7B7D00609EBC /* MBProgressHUD.m in Sources */,
+				78DB3B2C1E9E5B0B0066B892 /* TLMessageTableViewCell.m in Sources */,
+				7875C52C1E9B4EBA001FFE9A /* OpenUDID.m in Sources */,
+				7875C52B1E9B4EBA001FFE9A /* JSONKit.m in Sources */,
+				78DB3B3A1E9E5BB00066B892 /* NSString+Extension.m in Sources */,
+				7875C5291E9B4EBA001FFE9A /* CAStreamBasicDescription.cpp in Sources */,
+				7860DB911EA064A80083F06E /* DialogueListViewController.m in Sources */,
+				78DB3B321E9E5B350066B892 /* CellFrameModel.m in Sources */,
+				7875C52D1E9B4EBA001FFE9A /* TTTAttributedLabel.m in Sources */,
+				78DB3B2F1E9E5B240066B892 /* MessageModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7875C4D31E9B493C001FFE9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7875C4DC1E9B493C001FFE9A /* __ios________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7875C4DE1E9B493C001FFE9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7875C4E71E9B493C001FFE9A /* __ios________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7875C4D91E9B493C001FFE9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7875C4BD1E9B493B001FFE9A /* 基于ios平台的图灵机器人 */;
+			targetProxy = 7875C4D81E9B493C001FFE9A /* PBXContainerItemProxy */;
+		};
+		7875C4E41E9B493C001FFE9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7875C4BD1E9B493B001FFE9A /* 基于ios平台的图灵机器人 */;
+			targetProxy = 7875C4E31E9B493C001FFE9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7875C4CA1E9B493B001FFE9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7875C4CB1E9B493B001FFE9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7875C4CF1E9B493B001FFE9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7875C4D01E9B493B001FFE9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7875C4E91E9B493C001FFE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7875C4EA1E9B493C001FFE9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7875C4EC1E9B493C001FFE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC13DD109395290A4BD5D2B3 /* Pods-基于ios平台的图灵机器人.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8Z3BCBA7P2;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/基于ios平台的图灵机器人/PrefixHeader.pch";
+				INFOPLIST_FILE = "基于ios平台的图灵机器人/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/基于ios平台的图灵机器人/SDK\\ Package/Libs",
+					"$(PROJECT_DIR)/基于ios平台的图灵机器人/SDK\\ Package/Libs",
+					"$(PROJECT_DIR)/基于ios平台的图灵机器人/SDK\\ Package/Libs",
+					"$(PROJECT_DIR)/基于ios平台的图灵机器人",
+				);
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"FMDB\"",
+					"-l\"LBXAlertAction\"",
+					"-l\"SDCycleScrollView\"",
+					"-l\"SDWebImage\"",
+					"-l\"WeChatSDK\"",
+					"-l\"c++\"",
+					"-l\"crypto\"",
+					"-l\"icucore\"",
+					"-l\"sqlite3\"",
+					"-l\"sqlite3.0\"",
+					"-l\"ssl\"",
+					"-l\"z\"",
+					"-l\"z.1.2.5\"",
+					"-framework",
+					"\"BaiduMapAPI_Base\"",
+					"-framework",
+					"\"BaiduMapAPI_Cloud\"",
+					"-framework",
+					"\"BaiduMapAPI_Location\"",
+					"-framework",
+					"\"BaiduMapAPI_Map\"",
+					"-framework",
+					"\"BaiduMapAPI_Radar\"",
+					"-framework",
+					"\"BaiduMapAPI_Search\"",
+					"-framework",
+					"\"BaiduMapAPI_Utils\"",
+					"-framework",
+					"\"BmobSDK\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuling.sunxiaolin.Product;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7875C4ED1E9B493C001FFE9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAC86B372C38D0259F86AD3E /* Pods-基于ios平台的图灵机器人.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8Z3BCBA7P2;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/基于ios平台的图灵机器人/PrefixHeader.pch";
+				INFOPLIST_FILE = "基于ios平台的图灵机器人/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/基于ios平台的图灵机器人/SDK\\ Package/Libs",
+					"$(PROJECT_DIR)/基于ios平台的图灵机器人/SDK\\ Package/Libs",
+					"$(PROJECT_DIR)/基于ios平台的图灵机器人/SDK\\ Package/Libs",
+					"$(PROJECT_DIR)/基于ios平台的图灵机器人",
+				);
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"FMDB\"",
+					"-l\"LBXAlertAction\"",
+					"-l\"SDCycleScrollView\"",
+					"-l\"SDWebImage\"",
+					"-l\"WeChatSDK\"",
+					"-l\"c++\"",
+					"-l\"crypto\"",
+					"-l\"icucore\"",
+					"-l\"sqlite3\"",
+					"-l\"sqlite3.0\"",
+					"-l\"ssl\"",
+					"-l\"z\"",
+					"-l\"z.1.2.5\"",
+					"-framework",
+					"\"BaiduMapAPI_Base\"",
+					"-framework",
+					"\"BaiduMapAPI_Cloud\"",
+					"-framework",
+					"\"BaiduMapAPI_Location\"",
+					"-framework",
+					"\"BaiduMapAPI_Map\"",
+					"-framework",
+					"\"BaiduMapAPI_Radar\"",
+					"-framework",
+					"\"BaiduMapAPI_Search\"",
+					"-framework",
+					"\"BaiduMapAPI_Utils\"",
+					"-framework",
+					"\"BmobSDK\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuling.sunxiaolin.Product;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7875C4EF1E9B493C001FFE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8Z3BCBA7P2;
+				INFOPLIST_FILE = "基于ios平台的图灵机器人Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.--ios--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/基于ios平台的图灵机器人.app/基于ios平台的图灵机器人";
+			};
+			name = Debug;
+		};
+		7875C4F01E9B493C001FFE9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8Z3BCBA7P2;
+				INFOPLIST_FILE = "基于ios平台的图灵机器人Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.--ios--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/基于ios平台的图灵机器人.app/基于ios平台的图灵机器人";
+			};
+			name = Release;
+		};
+		7875C4F21E9B493C001FFE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8Z3BCBA7P2;
+				INFOPLIST_FILE = "基于ios平台的图灵机器人UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.--ios--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "基于ios平台的图灵机器人";
+			};
+			name = Debug;
+		};
+		7875C4F31E9B493C001FFE9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8Z3BCBA7P2;
+				INFOPLIST_FILE = "基于ios平台的图灵机器人UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.--ios--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "基于ios平台的图灵机器人";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7875C4B91E9B493B001FFE9A /* Build configuration list for PBXProject "基于ios平台的图灵机器人" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7875C4E91E9B493C001FFE9A /* Debug */,
+				7875C4EA1E9B493C001FFE9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7875C4EB1E9B493C001FFE9A /* Build configuration list for PBXNativeTarget "基于ios平台的图灵机器人" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7875C4EC1E9B493C001FFE9A /* Debug */,
+				7875C4ED1E9B493C001FFE9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7875C4EE1E9B493C001FFE9A /* Build configuration list for PBXNativeTarget "基于ios平台的图灵机器人Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7875C4EF1E9B493C001FFE9A /* Debug */,
+				7875C4F01E9B493C001FFE9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7875C4F11E9B493C001FFE9A /* Build configuration list for PBXNativeTarget "基于ios平台的图灵机器人UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7875C4F21E9B493C001FFE9A /* Debug */,
+				7875C4F31E9B493C001FFE9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7875C4B61E9B493B001FFE9A /* Project object */;
+}

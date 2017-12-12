@@ -1,0 +1,14 @@
+platform :ios, ‘8.0‘
+
+target “基于ios平台的图灵机器人” do
+ pod 'BaiduMapKit'
+ pod 'AFNetworking'
+ pod 'FMDB'
+ pod 'SDWebImage'
+ pod 'SDCycleScrollView'
+ pod 'BmobSDK’
+
+ pod 'LBXAlertAction'
+
+
+end

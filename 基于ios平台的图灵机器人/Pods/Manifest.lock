@@ -1,0 +1,52 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - BaiduMapKit (3.4.2)
+  - BmobSDK (2.2.3):
+    - WechatOpenSDK (~> 1.7.7)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - LBXAlertAction (1.0.6)
+  - SDCycleScrollView (1.74):
+    - SDWebImage (>= 4.0.0)
+  - SDWebImage (4.2.2):
+    - SDWebImage/Core (= 4.2.2)
+  - SDWebImage/Core (4.2.2)
+  - WechatOpenSDK (1.7.9)
+
+DEPENDENCIES:
+  - AFNetworking
+  - BaiduMapKit
+  - BmobSDK
+  - FMDB
+  - LBXAlertAction
+  - SDCycleScrollView
+  - SDWebImage
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  BaiduMapKit: f61b19ecf07a3f2deede72b221b366bf698739ed
+  BmobSDK: dd61cf835d063303fb53b29465fcb3e9718b36f2
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  LBXAlertAction: c69d119d0d1224e536e3ae2e90212bb989685481
+  SDCycleScrollView: f821215226f6146a35470721a9d6e83ec5cfb04b
+  SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
+  WechatOpenSDK: 1fe7e3b07db860d6a936c3ff4a5aba6b890958d9
+
+PODFILE CHECKSUM: e0de2f7fc442defff5499df9f26cff046e08fe55
+
+COCOAPODS: 1.3.1

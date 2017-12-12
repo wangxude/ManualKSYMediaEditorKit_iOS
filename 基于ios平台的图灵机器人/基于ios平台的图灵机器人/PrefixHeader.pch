@@ -1,0 +1,41 @@
+//
+//  PrefixHeader.pch
+//  基于ios平台的图灵机器人
+//
+//  Created by 王旭 on 2017/4/10.
+//  Copyright © 2017年 kys-5. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#define ScreenHeight [[UIScreen mainScreen] bounds].size.height
+#define ScreenWidth [[UIScreen mainScreen] bounds].size.width
+
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+
+/**
+ *  弱引用
+ */
+#define BXWeakSelf __weak typeof(self) weakSelf = self;
+
+#define TuringAPIKey @"034d6801bb4c4fca8bccaa73fe8ea9b0"
+//百度的appKey
+#define BaiduAPIKey @"rGjZi3g3RmjqQblC95abdoMy"
+#define BaiduSecretKey @"NPXtVWQIkRkgBmT3Ng5eOM6oXyPFqZ2v"
+
+//图灵机器人
+//#import "TRRTuringAPIConfig.h"
+//#import "TRRTuringAPI.h"
+//#import "TRRTuringRequestManager.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
